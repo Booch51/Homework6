@@ -65,12 +65,12 @@ public class Main {
 
         System.out.println("Задача 9");
 
-        int salary1 = 29000;
-        int total1 = 0;
+        int monthlyDeposit = 29000;
+        int totalSavings = 0;
         for (int i = 1; i <= 12; i++) {
-            total1 = total1 + total1 / 100;
-            total1 = total1 + salary1;
-            System.out.println("Месяц " + i + ", сумма накоплений равна " + total1 + " рублей.");
+            totalSavings = totalSavings + totalSavings / 100;
+            totalSavings = totalSavings + monthlyDeposit;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + totalSavings + " рублей.");
         }
 
         System.out.println("Задача 10");
