@@ -1,7 +1,7 @@
  .idea
  *.iml
 ### IntelliJ IDEA ###
-out/
+out/target
 !**/src/main/**/out/
 !**/src/test/**/out/
 
